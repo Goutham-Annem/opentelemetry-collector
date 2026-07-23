@@ -5,6 +5,9 @@ status:
   disable_codecov_badge: true
   class: pkg
 
+tests:
+  goleak:
+
 exported_configs:
   config:
     description: Config configures the matching behavior of a Filter.
